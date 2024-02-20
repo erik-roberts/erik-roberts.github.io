@@ -1,0 +1,226 @@
+*{
+	margin:0;
+	padding:0;
+}
+span.reference{
+	font-family:Arial;
+	position:fixed;
+	right:10px;
+	top:10px;
+	font-size:15px;
+}
+span.reference a{
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+h1{
+	font-size:55px;
+	margin:.5em 0px 0.5em 25px;
+	color:#960000;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.3);
+}
+body{
+	background:#000 url(../images/bg.jpg) repeat center center;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size:12px;
+	color: #000;
+	overflow:hidden;
+}
+/* This is for the menu bar */
+.navbox {
+	position: relative;
+	float: left;
+}
+ul.nav {
+	text-transform:uppercase;
+	list-style: none;
+	display: block;
+	width: 200px;
+	position: relative;
+	/*top: 50px;
+	left: 50px;*/
+	padding: 100px 0 100px 0;
+	background: url(../images/shad.png) no-repeat;
+	-webkit-background-size: 50% 100%;
+}
+li {
+	margin: 5px 0 0 0;
+}
+ul.nav li a {
+	-webkit-transition: all .5s ease-out;
+	color:#960000;
+	padding: 7px 15px 7px 15px;
+	-webkit-border-top-right-radius: 10px;
+ 	-webkit-border-bottom-right-radius: 10px;
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	box-shadow:0 1px 0 rgba(0,0,0,0.3);
+	background: url(../images/border.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: url(../images/border.png) no-repeat, -moz-linear-gradient(top,  #fff,  #ededed);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+ul.nav li a:hover {
+	color: #ffffff;
+	padding: 7px 15px 7px 30px;
+	background:  url(../images/border.png) no-repeat, -moz-linear-gradient(19% 75% 90deg,#960000, #830000);
+	background:  url(../images/border.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#960000), to(#710000));
+}
+ul.nav li a:active {
+	text-shadow: 0 -1px 3px rgba(0,0,0,.5);
+	position: relative;
+	top: 1px;
+	background:  url(../images/border.png) no-repeat, -moz-linear-gradient(19% 75% 90deg,#830000, #960000);
+	background:  url(../images/border.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#710000), to(#960000));
+}
+
+
+/* This is for the gallery */
+.pp_loading{
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-35px 0px 0px -35px;
+	background:#fff url(../images/loader.gif) no-repeat center center;
+	width:70px;
+	height:70px;
+	z-index:999;
+	opacity:0.7;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.pp_next, .pp_prev{
+	cursor:pointer;
+	top:50%;
+	margin-top:-16px;
+	width:32px;
+	height:32px;
+	position:fixed;
+	text-align:center;
+	border:1px solid #111;
+	color:#fff;
+	-moz-box-shadow:0px 0px 3px #000;
+	-webkit-box-shadow:0px 0px 3px #000;
+	box-shadow:0px 0px 3px #000;
+}
+.pp_next{
+	right:-40px;
+	background:#222 url(../images/next.png) no-repeat center center;
+}
+.pp_prev{
+	left:-40px;
+	background:#222 url(../images/prev.png) no-repeat center center;
+}
+#pp_thumbContainer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	height:65px;
+	width:100%;
+}
+#pp_thumbContainer .album{
+	position:absolute;
+	width:200px;
+	height:65px;
+	bottom:-90px;
+}
+.album .descr,
+.pp_back{
+	position:absolute;
+	bottom:0px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	text-align:center;
+	padding:5px;
+	cursor:pointer;
+	width:100px;
+	color:#960000;
+	cursor:pointer;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+	-moz-box-shadow:1px 1px 4px #000;
+	-webkit-box-shadow:1px 1px 4px #000;
+	box-shadow:1px 1px 4px #000;
+}
+.descr{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px #b7b7b7;
+}
+.pp_back{
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	background: url(../images/border.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: url(../images/border.png) no-repeat, -moz-linear-gradient(top,  #fff,  #ededed);
+	text-transform:uppercase;
+	bottom:120px;
+	left:-100px;
+	width:80px;
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 5px 5px 5px 5px;
+	-webkit-transition: all .3s ease-out;
+}
+.pp_back:hover{
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	background:  url(../images/border.png) no-repeat, -moz-linear-gradient(19% 75% 90deg,#960000, #830000);
+	background:  url(../images/border.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#960000), to(#710000));
+	color:#ffffff;
+	padding: 5px 5px 5px 15px;
+}
+.pp_back:active {
+	text-shadow: 0 -1px 3px rgba(0,0,0,.5);
+	background:  url(../images/border.png) no-repeat, -moz-linear-gradient(19% 75% 90deg,#830000, #960000);
+	background:  url(../images/border.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#710000), to(#960000));
+}
+#pp_thumbContainer .content{
+	position:absolute;
+	/*original value was 0px*/
+	top:-30px;
+	height:155px;
+	cursor:pointer;
+}
+#pp_thumbContainer img{
+	border:5px solid #fff;
+	-moz-box-shadow:1px 1px 7px #000;
+	-webkit-box-shadow:1px 1px 7px #000;
+	box-shadow:1px 1px 7px #000;
+}
+#pp_thumbContainer .content span{
+	display:none;
+}
+.pp_preview{
+	position:fixed;
+	top:150%;
+	left:50%;
+}
+.pp_preview img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:10px solid #fff;
+	/*border-bottom:45px solid #fff;*/
+	-moz-box-shadow:1px 1px 7px #000;
+	-webkit-box-shadow:1px 1px 7px #000;
+	box-shadow:1px 1px 7px #000;
+}
+/*.pp_descr{
+	height:45px;
+	line-height:45px;
+	font-size:20px;
+	width:100%;
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	text-align:center;
+	color:#00021c;
+}*/
