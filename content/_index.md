@@ -69,8 +69,8 @@ sections:
     content:
       title: ''
       text: |-
-        ![erikOR](assets/media/er_OR.jpg)
-
+        ![erikOR]({{< relref "assets/media/er_OR.jpg" >}})
+        
     design:
       columns: '1'
   - block: collection
