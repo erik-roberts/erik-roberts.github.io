@@ -109,3 +109,4 @@ awards:
 ## About Me
 
 As an anesthesiologist-scientist in training and tech enthusiast with a biomedical engineering and computational background, I am interested in leveraging perioperative clinical informatics and healthcare technology to improve patient care. Toward that end, graduate training provided me with skills in computational modeling, statistical learning, and signal processing.
+![erikOR](/assets/media/er_OR.jpg)
