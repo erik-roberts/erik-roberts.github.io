@@ -24,7 +24,7 @@ role: Resident Physician
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Michigan | Michigan Medicine | Department of Anesthesiology
+  - name: Department of Anesthesiology<br>University of Michigan | Michigan Medicine
     url: https://medschool.umich.edu/departments/anesthesiology
 
 # Social network links
@@ -42,7 +42,7 @@ profiles:
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Erik-Roberts
   - icon: academicons/pubmed
-    url: https://orcid.org/
+    url: https://pubmed.ncbi.nlm.nih.gov/?term=Erik+A+Roberts%5BAuthor%5D&sort=date
 
 interests:
   - Cardiothoracic Anesthesiology
