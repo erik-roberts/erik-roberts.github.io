@@ -64,14 +64,6 @@ sections:
 
     design:
       columns: '1'
-  - block: markdown
-    id: 'OR'
-    content:
-      title: ''
-      text: |-
-        ![erikOR]({{< relref "../assets/media/er_OR.jpg" >}})
-    design:
-      columns: '1'
   - block: collection
     content:
       title: Publications
