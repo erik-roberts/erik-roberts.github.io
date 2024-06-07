@@ -69,8 +69,7 @@ sections:
     content:
       title: ''
       text: |-
-        ![erikOR](https://drerikroberts.com/assets/media/er_OR.jpg)
-        
+        ![erikOR]({{< relref "../assets/media/er_OR.jpg" >}})
     design:
       columns: '1'
   - block: collection
