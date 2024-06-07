@@ -69,7 +69,7 @@ sections:
     content:
       title: ''
       text: |-
-        ![erikOR]({{< relref "assets/media/er_OR.jpg" >}})
+        ![erikOR]({{< relref "/assets/media/er_OR.jpg" >}})
         
     design:
       columns: '1'
