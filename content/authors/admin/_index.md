@@ -24,7 +24,7 @@ role: Resident Physician
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Anesthesiology<br>University of Michigan | Michigan Medicine
+  - name: Department of Anesthesiology | University of Michigan | Michigan Medicine
     url: https://medschool.umich.edu/departments/anesthesiology
 
 # Social network links
