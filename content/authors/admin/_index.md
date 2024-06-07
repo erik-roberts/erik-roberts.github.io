@@ -108,4 +108,4 @@ awards:
 
 ## About Me
 
-As an anesthesiologist-scientist in training and tech enthusiast with a biomedical engineering and computational background, I am interested in leveraging perioperative clinical informatics and healthcare technology to improve patient care. Toward that end, graduate training provided me with skills in computational modeling, statistical learning, and signal processing.
+As a cardiothoracic anesthesiologist-scientist in training and tech enthusiast with a biomedical engineering and computational background, my academic focus is leveraging clinical informatics and healthcare technology to improve perioperative care for patients with cardiovascular disease, including the cardio-obstetric population of pregnant women with cardiovascular disorders. Toward that end, graduate training provided me with skills in computational modeling, statistical learning, and signal processing.
