@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: cvc.jpg
+          filename: 
           filters:
             brightness: 1.0
           size: cover
@@ -61,6 +61,15 @@ sections:
         Advisor: Nikolas Blevins, MD<br>
         Research Intern, Summer 2009 – 2011<br>
         Designed workflow to create patient-specific virtual models for surgical simulator.
+
+    design:
+      columns: '1'
+  - block: markdown
+    id: 'OR'
+    content:
+      title: ''
+      text: |-
+        ![erikOR](assets/media/er_OR.jpg)
 
     design:
       columns: '1'
