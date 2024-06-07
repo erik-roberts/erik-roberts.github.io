@@ -31,9 +31,9 @@ sections:
           position: center
           parallax: false
   - block: markdown
+    id: 'projects'
     content:
       title: 'Research Projects'
-      id: 'projects'
       text: |-
         ### Chronic kidney disease progression after cardiac surgery-associated acute kidney injury
         University of Michigan, Department of Anesthesiology<br>
