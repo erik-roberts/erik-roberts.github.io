@@ -30,7 +30,18 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
+- block: markdown
+    id: 'or-photo'
+    content:
+      title: 'Research Projects'
+      text: |-
+        {{<
+		figure src="/assets/media/er_OR.jpg"
+		caption="Dr. Roberts in OR"
+		>}}
+    design:
+      columns: '1'
+- block: markdown
     id: 'projects'
     content:
       title: 'Research Projects'
