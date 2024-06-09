@@ -35,10 +35,7 @@ sections:
     content:
       title: 'Research Projects'
       text: |-
-        {{<
-		figure src="/assets/media/er_OR.jpg"
-		caption="Dr. Roberts in OR"
-		>}}
+        {{< figure src="/assets/media/er_OR.jpg", caption="Dr. Roberts in OR" >}}
     design:
       columns: '1'
 - block: markdown
