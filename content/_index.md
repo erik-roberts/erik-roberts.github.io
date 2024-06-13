@@ -52,7 +52,7 @@ sections:
       css_class: fullscreen
 
 
-    - block: cta-image-paragraph
+  - block: cta-image-paragraph
     id: projects
     content:
       items:
