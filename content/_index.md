@@ -57,7 +57,7 @@ sections:
     content:
       items:
         - title: Research Projects
-          text: text: |-
+          text: |-
             #### Chronic kidney disease progression after cardiac surgery-associated acute kidney injury
             University of Michigan, Department of Anesthesiology<br>
             Advisor: Michael Mathis, MD<br>
