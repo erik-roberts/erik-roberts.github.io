@@ -82,18 +82,17 @@ sections:
         Advisor: Nikolas Blevins, MD<br>
         Research Intern, Summer 2009 – 2011<br>
         Designed workflow to create patient-specific virtual models for surgical simulator.
-
     design:
       columns: '1'
     
-    - block: collection
-      content:
-        title: Publications
-        text: ""
-        filters:
-          folders:
-            - publication
-      design:
-        view: citation
+  - block: collection
+    content:
+      title: Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+    design:
+      view: citation
   
 ---
