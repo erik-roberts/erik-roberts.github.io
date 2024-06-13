@@ -30,14 +30,27 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: markdown
-      id: 'or-photo'
-      content:
-        title: 'Research Projects'
-        text: |-
-          ![Roberts-OR]('/images/er_OR.jpg')
-      design:
-        columns: '1'
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: er_OR.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+
   - block: markdown
       id: 'projects'
       content:
