@@ -46,9 +46,10 @@ profiles:
 
 interests:
   - Cardiothoracic Anesthesiology
+  - High-Risk Obstetric Anesthesiology
   - Cardio-Obstetrics
-  - Machine Learning
   - Perioperative Outcomes
+  - Machine Learning
 
 education:
   - area: Anesthesiology Residency
