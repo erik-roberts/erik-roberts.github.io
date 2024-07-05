@@ -56,7 +56,8 @@ education:
     date_start: 2021-07-01
     date_end: 2025-16-31
     summary: |
-      Clinician-Scientist Translational Anesthesiology Research (C-STAR) Track
+      Clinician-Scientist Translational Anesthesiology Research (C-STAR) Track\n
+      Electives: Cardio-Obstetrics, Regional Anesthesia, Clinical Research
   - area: MD-PhD, Biomedical Engineering
     institution: Boston University School of Medicine
     date_start: 2012-08-01
@@ -108,4 +109,4 @@ awards:
 
 ## About Me
 
-As a cardiothoracic anesthesiologist-scientist in training and tech enthusiast with a biomedical engineering and computational background, my academic focus is leveraging clinical informatics and healthcare technology to improve perioperative care for patients with cardiovascular disease, including the cardio-obstetric population of pregnant women with cardiovascular disorders. Toward that end, graduate training provided me with skills in computational modeling, statistical learning, and signal processing.
+As a cardiothoracic and obstetric anesthesiologist-clinical researcher in training with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for patients with cardiovascular disease, including the cardio-obstetric population of pregnant women with cardiovascular disorders. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
