@@ -110,4 +110,4 @@ awards:
 
 ## About Me
 
-As a cardiothoracic and obstetric anesthesiologist-clinical researcher in training with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for patients with cardiovascular disease, including the cardio-obstetric population of pregnant women with cardiovascular disorders. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
+As a cardiothoracic anesthesiologist-clinical researcher in training with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for patients with cardiovascular disease, including the cardio-obstetric population of pregnant women with cardiovascular disorders. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
