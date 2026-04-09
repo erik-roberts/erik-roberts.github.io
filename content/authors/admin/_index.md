@@ -54,6 +54,7 @@ education:
     institution: University of Michigan
     date_start: 2025-07-15
     date_end: 2026-07-14
+    summary: |
   - area: Anesthesiology Residency
     institution: University of Michigan
     date_start: 2021-07-01
