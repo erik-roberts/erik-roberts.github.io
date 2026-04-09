@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Resident Physician
+role: Cardiac Anesthesiology Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -46,16 +46,18 @@ profiles:
 
 interests:
   - Cardiothoracic Anesthesiology
-  - High-Risk Obstetric Anesthesiology
-  - Cardio-Obstetrics
-  - Perioperative Outcomes
+  - Perioperative Outcomes Research
   - Machine Learning
 
 education:
+  - area: Cardiothoracic Anesthesiology Fellowship
+    institution: University of Michigan
+    date_start: 2025-07-15
+    date_end: 2026-07-14
   - area: Anesthesiology Residency
     institution: University of Michigan
     date_start: 2021-07-01
-    date_end: 2025-16-31
+    date_end: 2025-07-14
     summary: |
       Clinician-Scientist Translational Anesthesiology Research (C-STAR) Track\n
       Electives: Cardio-Obstetrics, Regional Anesthesia, Clinical Research
@@ -110,4 +112,4 @@ awards:
 
 ## About Me
 
-As a cardiothoracic anesthesiologist-clinical researcher in training with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for patients with cardiovascular disease, including the cardio-obstetric population of pregnant women with cardiovascular disorders. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
+As a cardiothoracic anesthesiologist-clinical researcher in training with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for patients with cardiovascular disease. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
