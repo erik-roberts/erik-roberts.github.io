@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Erik Roberts, MD, PhD
+title: Erik A. Roberts, MD, PhD
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Cardiac Anesthesiology Fellow
+role: Clinical Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -33,6 +33,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:roberter@med.umich.edu'
     label: E-mail Me
+  - icon: academicons/cv
+    url: https://experts.umich.edu/14932-erik-roberts
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/erikandrewroberts/
   - icon: academicons/google-scholar
@@ -45,7 +47,7 @@ profiles:
     url: https://pubmed.ncbi.nlm.nih.gov/?term=Erik+A+Roberts%5BAuthor%5D&sort=date
 
 interests:
-  - Cardiothoracic Anesthesiology
+  - Cardiac Anesthesiology
   - Perioperative Outcomes Research
   - Machine Learning
 
@@ -113,4 +115,5 @@ awards:
 
 ## About Me
 
-As a cardiothoracic anesthesiologist-clinical researcher in training with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for patients with cardiovascular disease. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
+As a cardiothoracic anesthesiologist and clinical researcher with a biomedical engineering and computational research background, my academic focus is leveraging outcomes research, clinical informatics, and healthcare technology to improve perioperative care for high-risk surgical patients. Toward that end, graduate training provided me with skills in computational modeling, statistics, machine learning, and signal processing.
+
